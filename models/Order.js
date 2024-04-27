@@ -84,6 +84,10 @@ class Order extends Model {
             },
           },
         },
+        status: {
+          type: DataTypes.ENUM("Pendiente", "Seguimiento", "Completada"),
+          defaultValue: "Prendiente",
+        },
       },
       {
         sequelize,
