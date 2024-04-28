@@ -9,7 +9,7 @@ class Product extends Model {
           primaryKey: true,
           autoIncrement: true,
         },
-        brnad: {
+        brand: {
           type: DataTypes.STRING,
           allowNull: false,
           validate: {
