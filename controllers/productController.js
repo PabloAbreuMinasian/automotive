@@ -1,5 +1,5 @@
 const Product = require("../models/Product");
-const formidable = require("formidable");
+const { formidable } = require("formidable");
 
 const form = formidable({
   multiples: true,
